@@ -93,4 +93,15 @@ class MainViewController: UITableViewController {
         action.image = UIImage.init(systemName: "heart")
         return action
     }
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        guard segue.identifier == "SaveSegue" else {return}
+        
+        let sourceVC = segue.source as! NewItemViewController
+        let emoji = sourceVC.emoji
+        let newIndexPath = IndexPath(row: objects.count, section: 0)
+        objects.append(emoji)
+      
+        tableView.insertRows(at: [newIndexPath], with: .fade)
+        
+    }
 }

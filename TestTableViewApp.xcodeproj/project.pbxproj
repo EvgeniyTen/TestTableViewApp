@@ -15,6 +15,7 @@
 		FAADB8A327B9220B00E15F2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB8A227B9220B00E15F2C /* MainViewController.swift */; };
 		FAADB8A527B9290400E15F2C /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB8A427B9290400E15F2C /* MainViewCell.swift */; };
 		FAADB8A927B92B6C00E15F2C /* Data model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB8A827B92B6C00E15F2C /* Data model.swift */; };
+		FAB28F6827B988DC0005B923 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB28F6727B988DC0005B923 /* NewItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FAADB8A227B9220B00E15F2C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FAADB8A427B9290400E15F2C /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		FAADB8A827B92B6C00E15F2C /* Data model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data model.swift"; sourceTree = "<group>"; };
+		FAB28F6727B988DC0005B923 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		FAADB8A627B92B2700E15F2C /* Main C */ = {
 			isa = PBXGroup;
 			children = (
+				FAB28F6727B988DC0005B923 /* NewItemViewController.swift */,
 				FAADB8A427B9290400E15F2C /* MainViewCell.swift */,
 				FAADB8A227B9220B00E15F2C /* MainViewController.swift */,
 			);
@@ -162,6 +165,7 @@
 			files = (
 				FAADB8A327B9220B00E15F2C /* MainViewController.swift in Sources */,
 				FAADB8A527B9290400E15F2C /* MainViewCell.swift in Sources */,
+				FAB28F6827B988DC0005B923 /* NewItemViewController.swift in Sources */,
 				FAADB8A927B92B6C00E15F2C /* Data model.swift in Sources */,
 				FAADB88F27B9204F00E15F2C /* AppDelegate.swift in Sources */,
 				FAADB89127B9204F00E15F2C /* SceneDelegate.swift in Sources */,
